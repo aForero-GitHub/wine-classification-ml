@@ -93,6 +93,7 @@ Finalmente, se aplicó ajuste de hiperparámetros utilizando validación cruzada
 - **Random Forest** resultó ser el modelo más efectivo para este problema, con la mayor exactitud y precisión entre las diferentes clases.
 - **PCA** proporcionó una mejora en la interpretabilidad del modelo, aunque con una ligera disminución en la exactitud.
 - El pipeline fue optimizado a través del **ajuste de hiperparámetros** y la validación cruzada, lo que llevó a un modelo fiable para la predicción de variedades de vino.
+- Puede ver el resultado de los experimentos en el siguiente [Enlace](https://community.cloud.databricks.com/ml/experiments/1740077517975597?viewStateShareKey=3613330bab17ac06fdf3d97bbe14019422abb4e0c02ab12021213903dd2ee82d)
   
 ## Trabajo Futuro
 1. Explorar métodos más avanzados de ensamble o redes neuronales.
@@ -208,6 +209,7 @@ Finally, hyperparameter tuning using cross-validation was applied to further opt
 - **Random Forest** proved to be the most effective model for this problem, with the highest accuracy and precision across the different classes.
 - **PCA** provided some improvement in model performance for interpretability but resulted in a slight drop in accuracy.
 - The pipeline was optimized through **hyperparameter tuning** and cross-validation, leading to a reliable model for predicting wine varieties.
+- Review the result experiments in the next [Link](https://community.cloud.databricks.com/ml/experiments/1740077517975597?viewStateShareKey=3613330bab17ac06fdf3d97bbe14019422abb4e0c02ab12021213903dd2ee82d)
   
 ## Future Work
 1. Explore more advanced ensemble methods or neural networks.
