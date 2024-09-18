@@ -2,6 +2,8 @@
 
 En este documento, se presenta el proceso de evaluación y análisis de diferentes modelos de clasificación para el conjunto de datos de vinos. Los modelos que se probaron incluyen **Random Forest**, **Logistic Regression**, y **Decision Tree**. A continuación, se muestra un resumen del proceso seguido y los resultados obtenidos.
 
+![Experiments](https://github.com/aForero-GitHub/wine-classification-ml/blob/main/img/experiments.png)
+
 ## Proceso de Evaluación
 
 1. **Carga y Preprocesamiento de Datos**:
@@ -33,14 +35,16 @@ En este documento, se presenta el proceso de evaluación y análisis de diferent
 
 ## Resultados Obtenidos
 
-### Random Forest
+### Random Forest ejecucion local
 
 - **Precisión**: `0.9688`
 - **Precision ponderada**: `0.9731`
 - **Recall ponderado**: `0.9677`
 - **F1-Score**: `0.9687`
 
-![Resultados de Random Forest](experiments.png)
+  ### Random Forest ejecucion Databricks
+
+![Resultados de Random Forest](https://github.com/aForero-GitHub/wine-classification-ml/blob/main/img/RandomForestMetrics.png)
 
 ### Decision Tree
 
@@ -49,8 +53,8 @@ En este documento, se presenta el proceso de evaluación y análisis de diferent
 - **Recall ponderado**: `0.9674`
 - **F1-Score**: `0.9658`
 
-![Métricas de Decision Tree](GrphDecisionTree.png)
-![Detalles de Métricas](MetricsDecisionTree.png)
+![Métricas de Decision Tree](https://github.com/aForero-GitHub/wine-classification-ml/blob/main/img/GrphDecisionTree.png)
+![Detalles de Métricas](https://github.com/aForero-GitHub/wine-classification-ml/blob/main/img/MetricsDecisionTree.png)
 
 ### Logistic Regression
 
@@ -59,8 +63,8 @@ En este documento, se presenta el proceso de evaluación y análisis de diferent
 - **Recall ponderado**: `0.9712`
 - **F1-Score**: `0.9721`
 
-![Métricas de Logistic Regression](GrphLogisticRegression.png)
-![Detalles de Métricas](MetricsLogisticRegression.png)
+![Métricas de Logistic Regression](https://github.com/aForero-GitHub/wine-classification-ml/blob/main/img/GrphLogisticRegression.png)
+![Detalles de Métricas](https://github.com/aForero-GitHub/wine-classification-ml/blob/main/img/MetricsLogisticRegression.png)
 
 ## Conclusiones
 
@@ -80,4 +84,4 @@ En este documento, se presenta el proceso de evaluación y análisis de diferent
 
 ---
 
-Este archivo incluye las imágenes y los gráficos generados durante la evaluación de los modelos. Para que las imágenes se muestren correctamente, asegúrate de que las imágenes estén subidas en el mismo repositorio en la carpeta adecuada.
+Este archivo incluye las imágenes y los gráficos generados durante la evaluación de los modelos.
